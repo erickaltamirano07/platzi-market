@@ -2,6 +2,7 @@ package com.platzi.market.persistence.entity;
 
 import javax.persistence.*;
 import java.util.List;
+
 @Entity
 @Table(name="clientes")
 public class Cliente {
