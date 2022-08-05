@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
+
 @RestController
 @RequestMapping("/purchases")
 public class PurchaseController {
@@ -32,3 +32,4 @@ public class PurchaseController {
         return new ResponseEntity<>(purchaseService.save(purchase), HttpStatus.CREATED);
     }
 }
+

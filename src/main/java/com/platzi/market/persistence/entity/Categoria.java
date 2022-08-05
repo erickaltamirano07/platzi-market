@@ -3,6 +3,7 @@ package com.platzi.market.persistence.entity;
 
 import javax.persistence.*;
 import java.util.List;
+
 @Entity
 @Table(name = "categorias")
 public class Categoria {

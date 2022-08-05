@@ -1,6 +1,7 @@
 package com.platzi.market.persistence.entity;
 
 import javax.persistence.*;
+
 @Entity
 @Table(name = "compras_productos")
 public class ComprasProducto {
